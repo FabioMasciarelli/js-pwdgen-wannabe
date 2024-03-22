@@ -12,7 +12,7 @@ console.log(userSurname, typeof userSurname);
 let userFavouriteColor = prompt ("for the last, What's yout favourite color?"); //STRING
 console.log(userFavouriteColor), typeof userFavouriteColor;
 
-let randomNumber = Math.floor (Math.random () * 100);
+const randomNumber = Math.floor (Math.random () * 100); //NUMBER
 
 // CONCATENO IL NOME COGNOME E COLORE PREFERITO DELL'UTENTE
 const resultPassword = userName + userSurname + userFavouriteColor + randomNumber; //STRING
